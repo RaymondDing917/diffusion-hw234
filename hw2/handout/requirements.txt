@@ -1,0 +1,9 @@
+# python >=3.9, <3.13 is required
+clean-fid==0.1.35
+einops==0.8.1
+pillow==11.3.0
+scipy>=1.11,<1.17 
+torch
+torchvision
+tqdm==4.67.1
+wandb==0.21.3

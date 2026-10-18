@@ -1,0 +1,11 @@
+torch
+wandb
+Pillow
+torchvision
+tqdm
+transformers==4.46.3
+gdown
+numpy
+PyYAML
+matplotlib
+pytest

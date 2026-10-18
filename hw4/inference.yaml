@@ -1,0 +1,20 @@
+Image_Generation_Configs:
+    - model_path: ./data/ddpm_dit_cifar_100_epochs.pth
+      cfg: 3.0
+      save_path: ./pretrained_class_conditional_inference_2_of_2_classes
+      classes:
+        - 3
+        - 3
+        - 4
+        - 4
+    - model_path: ./models/trained_qformer.pth
+      cfg: 3.0
+      save_path: ./silver_plane_cross_attention
+      prompts:
+        - "a photo of a silver plane in a green grassy background"
+      gpt2_cache_dir: "./data/gpt2"
+      attn_save_dir: ./silver_plane_cross_attention_attn_maps # remove attn_save_dir and attn_timesteps if you don't want to capture and save the attention maps
+      attn_timesteps:
+        - 1000
+        - 500
+        - 100

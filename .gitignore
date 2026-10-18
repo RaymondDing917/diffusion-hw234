@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+.vscode/
+wandb_api.json
+wandb/
+results/
+run_backups/
+data/train/
+data/val/
+*.log

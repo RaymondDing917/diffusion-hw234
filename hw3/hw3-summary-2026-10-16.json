@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-16",
+  "gpu": "RTX 5090 32GB",
+  "all_exit_code": 0,
+  "groups": {
+    "baseline": {
+      "pos_counter": 175,
+      "neg_counter": 0,
+      "accuracy": 0.10131332082551595,
+      "counter": 108
+    },
+    "r128_a512": {
+      "pos_counter": 559,
+      "neg_counter": 507,
+      "accuracy": 0.8667917448405253,
+      "counter": 924,
+      "best_validation_loss": 0.10330389440059662
+    },
+    "r16_a64": {
+      "pos_counter": 476,
+      "neg_counter": 590,
+      "accuracy": 0.873358348968105,
+      "counter": 931,
+      "best_validation_loss": 0.1333024799823761
+    },
+    "r16_a256": {
+      "pos_counter": 516,
+      "neg_counter": 550,
+      "accuracy": 0.873358348968105,
+      "counter": 931,
+      "best_validation_loss": 0.0975533276796341
+    },
+    "r196_a784": {
+      "pos_counter": 483,
+      "neg_counter": 583,
+      "accuracy": 0.8761726078799249,
+      "counter": 934,
+      "best_validation_loss": 0.08464964479207993
+    },
+    "full_finetune": {
+      "pos_counter": 583,
+      "neg_counter": 483,
+      "accuracy": 0.8461538461538461,
+      "counter": 902,
+      "best_validation_loss": 0.15155723690986633
+    },
+    "r128_a512_short": {
+      "pos_counter": 477,
+      "neg_counter": 589,
+      "accuracy": 0.8761726078799249,
+      "counter": 934,
+      "best_validation_loss": 0.0888606533408165
+    }
+  }
+}
